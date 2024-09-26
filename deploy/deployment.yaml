@@ -18,7 +18,11 @@ spec:
         app: accounts
     spec:
       containers:
+<<<<<<< HEAD
       - image: IMAGE_NAME_HERE
+=======
+      - image: us.icr.io/sn-labs-yanbingjiang/accounts:1
+>>>>>>> 8a3c31841e07ddd25c3dea96d15bbde0f5f5f669
         name: accounts
         resources: {}
 
@@ -41,6 +45,10 @@ spec:
                 name: postgresql
                 key: database-user
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a3c31841e07ddd25c3dea96d15bbde0f5f5f669
 status: {}
 
 
