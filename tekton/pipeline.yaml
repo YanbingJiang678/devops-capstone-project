@@ -79,7 +79,7 @@ spec:
       runAfter:
         - tests
         - lint
-
+        
     - name: deploy
       workspaces:
         - name: manifest-dir
@@ -98,7 +98,3 @@ spec:
           oc get pods -l app=accounts
       runAfter:
         - build
-    
-
-    
-
