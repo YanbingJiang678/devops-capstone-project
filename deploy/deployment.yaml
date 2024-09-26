@@ -39,8 +39,5 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: postgresql
-                key: database-user
-
+                key: database-user        
 status: {}
-
-
